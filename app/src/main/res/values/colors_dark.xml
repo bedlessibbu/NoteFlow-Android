@@ -1,0 +1,5 @@
+<resources>
+    <color name="app_background">@android:color/transparent</color>
+    <color name="surface_background">@android:color/white</color>
+    <color name="surface_on">@android:color/black</color>
+</resources>

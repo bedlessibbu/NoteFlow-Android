@@ -1,0 +1,2 @@
+// GitHub Actions workflow for building an APK
+# The following config logs into the SDK, builds, and uploads the APK as an artifact

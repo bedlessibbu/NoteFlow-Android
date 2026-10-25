@@ -1,0 +1,31 @@
+# Exclude Gradle and Android build outputs
+build/
+out/
+*.apk
+*.aab
+*.apk
+*.aab
+*.class
+.dex
+*.log
+*.tmp
+
+# Local config files
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+*.key
+*.pem
+*.pem
+*.env
+secrets/

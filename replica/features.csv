@@ -1,0 +1,41 @@
+feature,area,priority,original,clone,notes
+Infinite canvas with zoom/pan,Canvas,Must,Yes,Yes,Core differentiator - smooth 60fps pan/zoom
+Pressure-sensitive inking,Inking,Must,Yes,Yes,Stylus support critical - pressure curves per tool
+Multiple pen types (ballpoint, fountain, brush),Tools,Must,Yes,Yes,Distinct feel per tool with unique physics
+Highlighter with blend modes,Tools,Must,Yes,Yes,Multiply blend for realism, semi-transparent
+Eraser (stroke, area, object),Tools,Must,Yes,Yes,Three modes: stroke erase, area erase, object erase
+Shape recognition (line, rect, circle, arrow),Tools,Should,Yes,Yes,Snap to shape on hold, configurable delay
+Text boxes with rich formatting,Tools,Should,Yes,Yes,Font, size, color, alignment, bullet points
+Lasso select (move, resize, copy, delete),Tools,Must,Yes,Yes,Freeform selection with transform handles
+Layer management (add, reorder, hide, lock),Canvas,Should,Yes,Yes,Pro feature - max 10 layers per page
+Page templates (blank, lined, grid, dot, music, Cornell),Canvas,Should,Yes,Yes,User-customizable templates, import images
+PDF import (file picker, share target),PDF,Must,Yes,Yes,Large file handling, progress indicator
+PDF rendering (MuPDF/pdfium),PDF,Must,Yes,Yes,Hardware accelerated, page caching, thumbnails
+PDF annotation (ink, highlight, text, shapes, stamps),PDF,Must,Yes,Yes,Non-destructive, separate annotation layer
+PDF form filling,PDF,Could,Yes,Maybe,AcroForm support - defer to v2
+PDF text search & selection,PDF,Should,Yes,Yes,Text layer overlay, copy text
+Notebook folders/categories,Organization,Must,Yes,Yes,Nested folders, drag-drop organization
+Notebook covers & custom thumbnails,Organization,Should,Yes,Yes,Visual identity, auto-generate from first page
+Tags & filtering,Organization,Could,Yes,Maybe,Secondary org - defer to v2
+Full-text + handwriting search,Search,Should,Yes,Maybe,Requires OCR/index - defer or use ML Kit
+Export (PDF, PNG, SVG, TXT),Export,Must,Yes,Yes,Batch export, page range, quality options
+Cloud sync (Google Drive, Dropbox),Sync,Could,Yes,No,Out of scope v1 - infrastructure
+Local backup/restore,Sync,Should,Yes,Yes,JSON + assets, encrypted option
+Dark/Light/System theme,UI,Must,Yes,Yes,Material 3 dynamic colors
+Left/right handed UI,UI,Should,Yes,Yes,Toolbar position, gesture mirroring
+Gesture shortcuts (two-finger undo, etc.),UX,Should,Yes,Yes,Configurable, discoverable
+Presentation mode (external display),UX,Could,Yes,No,v2 feature
+Custom tool presets,Tools,Should,Yes,Yes,Save/restore tool configs, shareable
+Page manager (reorder, duplicate, delete),Canvas,Must,Yes,Yes,Thumbnail strip, drag reorder
+Undo/Redo (per stroke, per session),Inking,Must,Yes,Yes,Unlimited history, persistent across sessions
+Palm rejection,Inking,Must,Yes,Yes,System + custom heuristics for stylus
+Vector stroke storage,Data,Must,Yes,Yes,Efficient serialization, scalable rendering
+Raster layer support,Canvas,Should,Yes,Yes,For imported images, photos, high-res backgrounds
+Password protection / biometric lock,Security,Could,Yes,Maybe,Per-notebook or app-level
+Auto-save,Data,Must,Yes,Yes,Background save, crash recovery
+Import images/photos to canvas,Canvas,Should,Yes,Yes,Resize, crop, opacity, lock to background
+Laser pointer / presentation tools,UX,Could,Yes,Maybe,Temporary marks, audience view
+Grid/guideline snapping,Canvas,Should,Yes,Yes,Magnetic guidelines, configurable spacing
+Custom paper sizes,Canvas,Could,Yes,Maybe,A4, Letter, Custom, infinite
+Multi-window / split screen support,UX,Should,Yes,Yes,Android 7+ multi-window, drag-drop
+Stylus button actions (S Pen, etc.),Inking,Should,Yes,Yes,Configurable: eraser, tool switch, undo
